@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 
-@Configuration
+@Configuration //싱글톤 보장
 public class AppConfig {
     @Bean
     public MemberService memberService(){
