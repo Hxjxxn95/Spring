@@ -1,14 +1,15 @@
 package hello.core.member;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
+@RequiredArgsConstructor
 public class MemberServiceImpl implements MemberService{
-    @Autowired // ac.getBean(MemberRepository.class)
-    public MemberServiceImpl(MemberRepository memberRepository) {
-        this.memberRepository = memberRepository;
-    }
+//    @Autowired // ac.getBean(MemberRepository.class)
+//    public MemberServiceImpl(MemberRepository memberRepository) {
+//        this.memberRepository = memberRepository;
+//    }
 
     private final MemberRepository memberRepository;
 
