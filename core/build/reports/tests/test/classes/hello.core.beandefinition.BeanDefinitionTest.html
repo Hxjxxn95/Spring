@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - BeanDefinitionTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>BeanDefinitionTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/hello.core.beandefinition.html">hello.core.beandefinition</a> &gt; BeanDefinitionTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">빈 설정 메타정보 확인</td>
+<td class="success">findApplicationBean()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>17:15:15.238 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2444c3df
+17:15:15.238 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+17:15:15.242 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$ClientBean.class]
+17:15:15.242 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$PrototypeBean.class]
+17:15:15.242 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/common/MyLogger.class]
+17:15:15.243 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
+17:15:15.243 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
+17:15:15.243 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
+17:15:15.243 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
+17:15:15.243 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
+17:15:15.243 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoController.class]
+17:15:15.243 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoService.class]
+17:15:15.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+17:15:15.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+17:15:15.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+17:15:15.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+17:15:15.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'autoAppConfig'
+17:15:15.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'singletonWithPrototypeTest.ClientBean'
+17:15:15.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'myLogger'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'fixDiscountPolicy'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'rateDiscountPolicy'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberServiceImpl'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memoryMemberRepository'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'memberServiceImpl' via constructor to bean named 'memoryMemberRepository'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderServiceImpl'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'memoryMemberRepository'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'rateDiscountPolicy'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'logDemoController'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'logDemoService'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoService' via constructor to bean named 'myLogger'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoController' via constructor to bean named 'logDemoService'
+17:15:15.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoController' via constructor to bean named 'myLogger'
+beanDefinitionName = autoAppConfig beanDefinition = Generic bean: class [hello.core.AutoAppConfig$$SpringCGLIB$$0]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinitionName = singletonWithPrototypeTest.ClientBean beanDefinition = Generic bean: class [hello.core.scope.singletonWithPrototypeTest$ClientBean]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$ClientBean.class]
+beanDefinitionName = singletonWithPrototypeTest.PrototypeBean beanDefinition = Generic bean: class [hello.core.scope.singletonWithPrototypeTest$PrototypeBean]; scope=prototype; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$PrototypeBean.class]
+beanDefinitionName = scopedTarget.myLogger beanDefinition = Generic bean: class [hello.core.common.MyLogger]; scope=request; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/common/MyLogger.class]
+beanDefinitionName = myLogger beanDefinition = Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in BeanDefinition defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/common/MyLogger.class]
+beanDefinitionName = fixDiscountPolicy beanDefinition = Generic bean: class [hello.core.discount.FixDiscountPolicy]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
+beanDefinitionName = rateDiscountPolicy beanDefinition = Generic bean: class [hello.core.discount.RateDiscountPolicy]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=true; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
+beanDefinitionName = memberServiceImpl beanDefinition = Generic bean: class [hello.core.member.MemberServiceImpl]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
+beanDefinitionName = memoryMemberRepository beanDefinition = Generic bean: class [hello.core.member.MemoryMemberRepository]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
+beanDefinitionName = orderServiceImpl beanDefinition = Generic bean: class [hello.core.order.OrderServiceImpl]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
+beanDefinitionName = logDemoController beanDefinition = Generic bean: class [hello.core.web.LogDemoController]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoController.class]
+beanDefinitionName = logDemoService beanDefinition = Generic bean: class [hello.core.web.LogDemoService]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoService.class]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.2.1</a> at 2023. 8. 14. 오후 5:15:15</p>
+</div>
+</div>
+</body>
+</html>
