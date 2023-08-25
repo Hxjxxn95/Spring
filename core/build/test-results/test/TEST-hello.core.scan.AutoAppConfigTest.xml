@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.scan.AutoAppConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-14T08:15:15" hostname="Hojoonui-MacBookAir.local" time="0.013">
+<testsuite name="hello.core.scan.AutoAppConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-25T05:06:20" hostname="Hojoonui-MacBookAir.local" time="0.012">
   <properties/>
-  <testcase name="basicScan()" classname="hello.core.scan.AutoAppConfigTest" time="0.013"/>
-  <system-out><![CDATA[17:15:15.313 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@d6d683e
-17:15:15.313 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
-17:15:15.317 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$ClientBean.class]
-17:15:15.317 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$PrototypeBean.class]
-17:15:15.317 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/common/MyLogger.class]
-17:15:15.318 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
-17:15:15.318 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
-17:15:15.318 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
-17:15:15.318 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
-17:15:15.318 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
-17:15:15.318 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoController.class]
-17:15:15.318 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoService.class]
-17:15:15.322 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
-17:15:15.323 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
-17:15:15.323 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
-17:15:15.323 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
-17:15:15.323 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'autoAppConfig'
-17:15:15.323 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'singletonWithPrototypeTest.ClientBean'
-17:15:15.323 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'myLogger'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'fixDiscountPolicy'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'rateDiscountPolicy'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberServiceImpl'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memoryMemberRepository'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'memberServiceImpl' via constructor to bean named 'memoryMemberRepository'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderServiceImpl'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'memoryMemberRepository'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'rateDiscountPolicy'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'logDemoController'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'logDemoService'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoService' via constructor to bean named 'myLogger'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoController' via constructor to bean named 'logDemoService'
-17:15:15.324 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoController' via constructor to bean named 'myLogger'
+  <testcase name="basicScan()" classname="hello.core.scan.AutoAppConfigTest" time="0.012"/>
+  <system-out><![CDATA[14:06:20.122 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext -- Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@144440f5
+14:06:20.122 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:06:20.126 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$ClientBean.class]
+14:06:20.126 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/test/hello/core/scope/singletonWithPrototypeTest$PrototypeBean.class]
+14:06:20.127 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/common/MyLogger.class]
+14:06:20.127 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/FixDiscountPolicy.class]
+14:06:20.128 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/discount/RateDiscountPolicy.class]
+14:06:20.128 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemberServiceImpl.class]
+14:06:20.128 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/member/MemoryMemberRepository.class]
+14:06:20.129 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/order/OrderServiceImpl.class]
+14:06:20.129 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoController.class]
+14:06:20.129 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -- Identified candidate component class: file [/Users/hojoonkim/IdeaProjects/Spring/core/build/classes/java/main/hello/core/web/LogDemoService.class]
+14:06:20.131 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+14:06:20.131 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+14:06:20.131 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:06:20.131 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:06:20.131 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'autoAppConfig'
+14:06:20.132 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'singletonWithPrototypeTest.ClientBean'
+14:06:20.132 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'myLogger'
+14:06:20.132 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'fixDiscountPolicy'
+14:06:20.132 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'rateDiscountPolicy'
+14:06:20.132 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memberServiceImpl'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'memoryMemberRepository'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'memberServiceImpl' via constructor to bean named 'memoryMemberRepository'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'orderServiceImpl'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'memoryMemberRepository'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'orderServiceImpl' via constructor to bean named 'rateDiscountPolicy'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'logDemoController'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Creating shared instance of singleton bean 'logDemoService'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoService' via constructor to bean named 'myLogger'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoController' via constructor to bean named 'logDemoService'
+14:06:20.133 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory -- Autowiring by type from bean name 'logDemoController' via constructor to bean named 'myLogger'
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
