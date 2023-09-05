@@ -5,32 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c338524-a5cc-4d50-ac33-aa6e88b67112" name="변경" comment="스프링 mvc">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/HelloData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestBodyJsonServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestBodyStringServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestHeaderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/request/RequestParamServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/response/ResponseHeaderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/basic/response/ResponseHtmlServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/basic/hello-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/servlet.main.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servlet/MemberSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/web/servletmvc/MvcMemberSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/save-result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members/new-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/members/save.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/HelloServlet.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -76,7 +73,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -90,6 +87,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/hojoonkim/IdeaProjects/Spring/servlet",
     "node.js.detected.package.eslint": "true",
@@ -97,10 +96,37 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "157d54fd9df205d8d347143f2e130165",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/jsp/members" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.servlet.domain.member" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServletApplication">
+    <configuration name="MemberRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="servlet.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.servlet.domain.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.servlet.domain.member" />
+      <option name="MAIN_CLASS_NAME" value="hello.servlet.domain.member.MemberRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="servlet.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
@@ -108,6 +134,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MemberRepositoryTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1692938479826</updated>
       <workItem from="1692938480978" duration="6000" />
-      <workItem from="1692942145768" duration="9502000" />
+      <workItem from="1692942145768" duration="15296000" />
+      <workItem from="1693376497124" duration="6666000" />
     </task>
     <task id="LOCAL-00001" summary="스프링 mvc">
       <option name="closed" value="true" />
@@ -128,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692942252764</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="스프링 mvc">
+      <option name="closed" value="true" />
+      <created>1693119929789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693119929789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
